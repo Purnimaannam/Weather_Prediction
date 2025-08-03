@@ -25,11 +25,8 @@ SECRET_KEY = 'django-insecure-usid1p3gnx#v!bbnvv9zccn(ua#jfa0+q_j(c5s!v(aygd1mf_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS ==[
-    'weather-prediction-ccl2.onrender.com',  # your render domain
-    'localhost',
-    '127.0.0.1'
-]
+ALLOWED_HOSTS = ['*']
+
 
 
 
@@ -126,6 +123,7 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
 
 
 
